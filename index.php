@@ -1,6 +1,12 @@
 <?php
+//require
 
 require __DIR__.'/bootstrap.php';
+require __DIR__.'/vendor/autoload.php';
+
+//use
+
+use Carbon\Carbon;
 
 // connect to dabase
 try {
